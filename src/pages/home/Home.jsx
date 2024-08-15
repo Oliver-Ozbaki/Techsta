@@ -2,13 +2,17 @@ import Frame from "../../components/frame/Frame";
 import Header from "../../components/header/Header";
 import Items from "../../components/items/Items";
 import Navigate from "../../components/navigate/Navigate";
+import Main from "../../components/main/Main";
+import Hero from "./components/hero/Hero";
 
 import stylesHeader from "../../components/header/Header.module.scss";
+
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { type: `a`, style: `link`, url: `#products`, title: `Products` },
   { type: `a`, style: `link`, url: `#contact`, title: `Contact` },
-  { type: `Link`, style: `link`, url: `/blog`, title: `Blog` },
+  { type: Link, style: `link`, url: `/blog`, title: `Blog` },
 ];
 
 function Home() {
@@ -19,11 +23,17 @@ function Home() {
           <Items
             organized={false}
             elements={navLinks.map(({ type, style, url, title }) => (
-              <Navigate type={type} style={style} url={url} title={title} />
+              <Navigate type={type} style={style} url={url}>
+                {title}
+              </Navigate>
             ))}
           />
         </nav>
       </Header>
+
+      <Main>
+        <Hero />
+      </Main>
     </Frame>
   );
 }

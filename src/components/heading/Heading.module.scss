@@ -1,0 +1,24 @@
+@import "../../sass/abstracts/manager";
+@import "../../sass/abstracts/mixins";
+
+.heading {
+  &1 {
+    font: var(--heavy-weight) var(--h1-size) / var(--heading-height)
+      var(--font-family);
+  }
+
+  &TextWrapper {
+    @include heading-underline;
+
+    @include respond-to("1000px") {
+      @include heading-underline(false);
+    }
+  }
+
+  @include respond-to("1000px") {
+    &Highlight {
+      color: transparent;
+      background: var(--primary-gradient) no-repeat text;
+    }
+  }
+}

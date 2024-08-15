@@ -4,19 +4,50 @@
   &:link,
   &:visited {
     text-decoration: none;
-    background: var(--primary-gradient) no-repeat left bottom / 100% 5px;
 
     display: inline-block;
   }
 
-  @include respond-to("hover") {
-    cursor: pointer;
-    transition: background-size var(--transition-values);
+  &--link {
+    &:link,
+    &:visited {
+      background: var(--primary-gradient) no-repeat left bottom / 100% 5px;
+    }
 
-    &:hover,
-    &:active {
-      background-position: right bottom;
-      background-size: 0% 5px;
+    @include respond-to("hover") {
+      cursor: pointer;
+      transition: background-size var(--transition-values);
+
+      &:hover,
+      &:active {
+        background-position: right bottom;
+        background-size: 0% 5px;
+      }
+    }
+  }
+
+  &--button {
+    &:link,
+    &:visited {
+      font: var(--medium-weight) var(--p-size) / var(--default-height)
+        var(--font-family);
+
+      background: var(--primary-gradient) no-repeat;
+
+      padding: 1rem 1.5rem;
+
+      @include respond-to("hover") {
+        transition: all var(--transition-values);
+      }
+    }
+
+    @include respond-to("hover") {
+      &:hover,
+      &:active {
+        box-shadow: -3px -3px 0 var(--neutral-color-2);
+
+        transform: translate(3px, 3px);
+      }
     }
   }
 }

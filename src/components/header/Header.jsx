@@ -1,15 +1,21 @@
+import { useNavigate, useLocation } from "react-router-dom";
+
 import styles from "./Header.module.scss";
 
 function Header({ children }) {
+  const navigate = useNavigate();
+  const { pathname: currentPath } = useLocation();
+
   function handleClick() {
+    navigate(currentPath);
     window.location.reload();
   }
 
   return (
     <header
-      className={
+      className={`${
         children ? `${styles.header} ${styles["header--home"]}` : styles.header
-      }
+      } u-section-padding`}
     >
       <button className={styles.headerLogo} onClick={handleClick}>
         TECHSTA

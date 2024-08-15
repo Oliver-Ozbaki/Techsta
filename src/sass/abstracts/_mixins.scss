@@ -13,3 +13,20 @@
     gap: $gap;
   }
 }
+
+@mixin heading-underline($display: true) {
+  @if not $display {
+    display: initial;
+    background: initial;
+    background-clip: initial;
+    -webkit-background-clip: initial;
+  }
+
+  @if $display {
+    display: inline;
+    background: linear-gradient(var(--neutral-color-2), var(--neutral-color-2)),
+      var(--primary-gradient) no-repeat left bottom / 100% 30%;
+    background-clip: text, padding-box;
+    -webkit-background-clip: text, padding-box;
+  }
+}

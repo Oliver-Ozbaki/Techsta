@@ -8,6 +8,8 @@ $breakpoints: (
   "2200px": "(min-width: 137.5em)",
   "2500px": "(min-width: 156.25em)",
   "hover": "(any-hover: hover)",
+  "x1.5": "(min-resolution: 1.5dppx)",
+  "x2": "(min-resolution: 2dppx)",
 );
 
 @mixin respond-to($breakpoint) {
