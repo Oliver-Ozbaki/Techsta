@@ -1,13 +1,13 @@
 $breakpoints: (
-  // "500px": "(min-width: 31.25em)",
+  "500px": "(min-width: 31.25em)",
   "700px": "(min-width: 43.75em)",
-  // "1000px": "(min-width:62.5em)",
-  // "1300px": "(min-width:81.25em)",
+  "1000px": "(min-width:62.5em)",
+  "1300px": "(min-width:81.25em)",
   "1600px": "(min-width: 100em)",
   "1900px": "(min-width: 118.75em)",
   "2200px": "(min-width: 137.5em)",
   "2500px": "(min-width: 156.25em)",
-  "hover": "(any-hover: hover)"
+  "hover": "(any-hover: hover)",
 );
 
 @mixin respond-to($breakpoint) {

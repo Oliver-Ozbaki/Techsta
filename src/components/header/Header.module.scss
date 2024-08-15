@@ -1,0 +1,51 @@
+@import "../../sass/abstracts/mixins";
+@import "../../sass/abstracts/manager";
+
+.header {
+  font: var(--p-size) / var(--default-height) var(--font-family);
+  color: var(--neutral-color-2);
+  background: var(--neutral-color-1);
+
+  padding: var(--padding-value);
+
+  @include respond-to("1000px") {
+    &--home {
+      @include flex-box(center, space-between, false);
+    }
+  }
+
+  &Logo {
+    font-weight: 800;
+    background: none;
+
+    border: none;
+
+    @include respond-to("hover") {
+      background: var(--neutral-color-2);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      cursor: pointer;
+      transition: background-image var(--transition-values);
+
+      &:hover {
+        background-image: var(--primary-gradient);
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  &Nav {
+    display: none;
+
+    @include respond-to("1000px") {
+      font-weight: 400;
+
+      display: block;
+    }
+
+    & ul {
+      @include flex-box(false, false, 2rem);
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../sass/abstracts/manager";
+
+.link {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    background: var(--primary-gradient) no-repeat left bottom / 100% 5px;
+
+    display: inline-block;
+  }
+
+  @include respond-to("hover") {
+    cursor: pointer;
+    transition: background-size var(--transition-values);
+
+    &:hover,
+    &:active {
+      background-position: right bottom;
+      background-size: 0% 5px;
+    }
+  }
+}
