@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section className={`${styles.hero} u-section-padding`}>
       <div className={styles.heroTextWrapper}>
-        <Heading level="1">
+        <Heading level={1} utilities="u-margin-bottom-s">
           <span className={stylesHeading.headingHighlight}>
             Powerful computing
           </span>{" "}

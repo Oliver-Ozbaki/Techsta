@@ -1,3 +1,5 @@
+@import "./manager";
+
 @mixin flex-box($align, $justify, $gap) {
   display: flex;
 
@@ -28,5 +30,27 @@
       var(--primary-gradient) no-repeat left bottom / 100% 30%;
     background-clip: text, padding-box;
     -webkit-background-clip: text, padding-box;
+  }
+}
+
+@mixin absolute-position($top, $left, $width, $height) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  width: $width;
+  height: $height;
+}
+
+@mixin button-template {
+  font: var(--medium-weight) var(--p-size) / var(--default-height)
+    var(--font-family);
+
+  background: var(--primary-gradient) no-repeat;
+
+  border: none;
+  padding: 1rem 1.5rem;
+
+  @include respond-to("hover") {
+    transition: all var(--transition-values);
   }
 }

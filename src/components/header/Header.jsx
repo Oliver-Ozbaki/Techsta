@@ -7,7 +7,7 @@ function Header({ children }) {
   const { pathname: currentPath } = useLocation();
 
   function handleClick() {
-    navigate(currentPath);
+    navigate(currentPath.includes(`home`) ? `/home` : `/blog`);
     window.location.reload();
   }
 

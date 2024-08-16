@@ -7,11 +7,23 @@
       var(--font-family);
   }
 
+  &2 {
+    font: var(--heavy-weight) var(--h2-size) / var(--heading-height)
+      var(--font-family);
+  }
+
+  &3 {
+    font: var(--heavy-weight) var(--h3-size) / var(--heading-height)
+      var(--font-family);
+  }
+
   &TextWrapper {
     @include heading-underline;
 
-    @include respond-to("1000px") {
-      @include heading-underline(false);
+    &--1 {
+      @include respond-to("1000px") {
+        @include heading-underline(false);
+      }
     }
   }
 

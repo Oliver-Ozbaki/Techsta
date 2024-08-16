@@ -3,18 +3,26 @@ import PropTypes from "prop-types";
 import styles from "./Heading.module.scss";
 
 Heading.propTypes = {
-  level: PropTypes.string,
+  level: PropTypes.number,
+  utilities: PropTypes.string,
 };
 
-function Heading({ level, children }) {
+function Heading({ level, utilities = null, children }) {
   const Tag = `h${level}`;
 
   return (
-    <Tag
-      className={`${styles[`heading${level}`]} u-margin-bottom-s`}
-      id="header"
-    >
-      <div className={styles.headingTextWrapper}>{children}</div>
+    <Tag className={`${styles[`heading${level}`]} ${utilities}`}>
+      <div
+        className={
+          level < 3
+            ? `${styles.headingTextWrapper} ${
+                level === 1 ? styles[`headingTextWrapper--1`] : ``
+              }`
+            : ``
+        }
+      >
+        {children}
+      </div>
     </Tag>
   );
 }

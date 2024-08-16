@@ -1,4 +1,5 @@
 @import "../../sass/abstracts/manager";
+@import "../../sass/abstracts/mixins";
 
 .link {
   &:link,
@@ -29,16 +30,7 @@
   &--button {
     &:link,
     &:visited {
-      font: var(--medium-weight) var(--p-size) / var(--default-height)
-        var(--font-family);
-
-      background: var(--primary-gradient) no-repeat;
-
-      padding: 1rem 1.5rem;
-
-      @include respond-to("hover") {
-        transition: all var(--transition-values);
-      }
+      @include button-template;
     }
 
     @include respond-to("hover") {

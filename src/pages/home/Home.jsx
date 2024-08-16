@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
+
 import Frame from "../../components/frame/Frame";
 import Header from "../../components/header/Header";
 import Items from "../../components/items/Items";
 import Navigate from "../../components/navigate/Navigate";
 import Main from "../../components/main/Main";
 import Hero from "./components/hero/Hero";
+import Listings from "./components/listings/Listings";
 
 import stylesHeader from "../../components/header/Header.module.scss";
-
-import { Link } from "react-router-dom";
 
 const navLinks = [
   { type: `a`, style: `link`, url: `#products`, title: `Products` },
@@ -33,6 +34,7 @@ function Home() {
 
       <Main>
         <Hero />
+        <Listings />
       </Main>
     </Frame>
   );
