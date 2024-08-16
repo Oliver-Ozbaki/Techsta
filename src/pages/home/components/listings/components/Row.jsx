@@ -22,7 +22,6 @@ function Row({ part }) {
 
   const titleBase = part.replace(`_`, ` `);
   const finalTitle = titleBase.at(0).toUpperCase() + titleBase.slice(1);
-  console.log(finalTitle);
 
   useEffect(
     function () {
