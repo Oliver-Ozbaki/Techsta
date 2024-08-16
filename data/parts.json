@@ -1,0 +1,1138 @@
+{
+  "videocard": [
+    {
+      "id": "vc1",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 4090",
+      "price": 1599.99,
+      "description": "High-end graphics card with 24GB GDDR6X memory, excellent for 4K gaming and intensive tasks."
+    },
+    {
+      "id": "vc2",
+      "brand": "AMD",
+      "part_name": "Radeon RX 7900 XTX",
+      "price": 999.99,
+      "description": "Powerful graphics card with 24GB GDDR6 memory, designed for high-performance gaming and content creation."
+    },
+    {
+      "id": "vc3",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 4080",
+      "price": 1199.99,
+      "description": "Advanced graphics card with 16GB GDDR6X memory, ideal for high-resolution gaming and creative work."
+    },
+    {
+      "id": "vc4",
+      "brand": "AMD",
+      "part_name": "Radeon RX 7800 XT",
+      "price": 699.99,
+      "description": "Mid-range graphics card with 16GB GDDR6 memory, suitable for 1440p gaming and productivity tasks."
+    },
+    {
+      "id": "vc5",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 4070 Ti",
+      "price": 799.99,
+      "description": "High-performance card with 12GB GDDR6X memory, perfect for 1440p and entry-level 4K gaming."
+    },
+    {
+      "id": "vc6",
+      "brand": "AMD",
+      "part_name": "Radeon RX 7600",
+      "price": 449.99,
+      "description": "Entry-level graphics card with 8GB GDDR6 memory, designed for 1080p gaming and basic content creation."
+    },
+    {
+      "id": "vc7",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 3060 Ti",
+      "price": 399.99,
+      "description": "Great performance for 1080p and 1440p gaming, with 8GB GDDR6 memory."
+    },
+    {
+      "id": "vc8",
+      "brand": "AMD",
+      "part_name": "Radeon RX 6700 XT",
+      "price": 479.99,
+      "description": "Solid performance with 12GB GDDR6 memory, good for 1440p gaming."
+    },
+    {
+      "id": "vc9",
+      "brand": "NVIDIA",
+      "part_name": "GeForce GTX 1660 Super",
+      "price": 229.99,
+      "description": "Budget-friendly card with 6GB GDDR5 memory, suitable for 1080p gaming."
+    },
+    {
+      "id": "vc10",
+      "brand": "AMD",
+      "part_name": "Radeon RX 6500 XT",
+      "price": 199.99,
+      "description": "Affordable graphics card with 4GB GDDR6 memory, designed for basic gaming and multimedia tasks."
+    },
+    {
+      "id": "vc11",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 4080 Ti",
+      "price": 1399.99,
+      "description": "Ultra-high-performance card with 16GB GDDR6X memory, ideal for 4K gaming and demanding applications."
+    },
+    {
+      "id": "vc12",
+      "brand": "AMD",
+      "part_name": "Radeon RX 7900 XT",
+      "price": 849.99,
+      "description": "Advanced card with 20GB GDDR6 memory, great for high-resolution gaming and intensive workloads."
+    },
+    {
+      "id": "vc13",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 3070",
+      "price": 499.99,
+      "description": "High-performance card with 8GB GDDR6 memory, suitable for 1440p and entry-level 4K gaming."
+    },
+    {
+      "id": "vc14",
+      "brand": "AMD",
+      "part_name": "Radeon RX 6750 XT",
+      "price": 549.99,
+      "description": "Performance card with 12GB GDDR6 memory, good for 1440p gaming and content creation."
+    },
+    {
+      "id": "vc15",
+      "brand": "NVIDIA",
+      "part_name": "GeForce GTX 1650",
+      "price": 179.99,
+      "description": "Budget card with 4GB GDDR5 memory, suitable for casual gaming and multimedia tasks."
+    },
+    {
+      "id": "vc16",
+      "brand": "AMD",
+      "part_name": "Radeon RX 6700",
+      "price": 399.99,
+      "description": "Mid-range card with 10GB GDDR6 memory, great for 1440p gaming."
+    },
+    {
+      "id": "vc17",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 3060",
+      "price": 339.99,
+      "description": "Good performance for 1080p and some 1440p gaming, with 12GB GDDR6 memory."
+    },
+    {
+      "id": "vc18",
+      "brand": "AMD",
+      "part_name": "Radeon RX 5500 XT",
+      "price": 219.99,
+      "description": "Entry-level card with 8GB GDDR6 memory, suitable for 1080p gaming."
+    },
+    {
+      "id": "vc19",
+      "brand": "NVIDIA",
+      "part_name": "GeForce RTX 3090",
+      "price": 1499.99,
+      "description": "Top-tier graphics card with 24GB GDDR6X memory, ideal for 4K gaming and high-performance computing."
+    },
+    {
+      "id": "vc20",
+      "brand": "AMD",
+      "part_name": "Radeon RX 7900 XT",
+      "price": 879.99,
+      "description": "High-performance card with 20GB GDDR6 memory, designed for demanding games and applications."
+    }
+  ],
+  "cpu": [
+    {
+      "id": "cpu1",
+      "brand": "Intel",
+      "part_name": "Core i9-13900K",
+      "price": 599.99,
+      "description": "High-end processor with 24 cores and 32 threads, excellent for gaming and professional applications."
+    },
+    {
+      "id": "cpu2",
+      "brand": "AMD",
+      "part_name": "Ryzen 9 7950X",
+      "price": 699.99,
+      "description": "Top-tier CPU with 16 cores and 32 threads, ideal for high-performance tasks and gaming."
+    },
+    {
+      "id": "cpu3",
+      "brand": "Intel",
+      "part_name": "Core i7-13700K",
+      "price": 409.99,
+      "description": "Powerful processor with 16 cores and 24 threads, great for gaming and productivity."
+    },
+    {
+      "id": "cpu4",
+      "brand": "AMD",
+      "part_name": "Ryzen 7 7800X",
+      "price": 399.99,
+      "description": "High-performance CPU with 8 cores and 16 threads, suitable for gaming and multitasking."
+    },
+    {
+      "id": "cpu5",
+      "brand": "Intel",
+      "part_name": "Core i5-13600K",
+      "price": 319.99,
+      "description": "Mid-range CPU with 14 cores and 20 threads, excellent for gaming and everyday tasks."
+    },
+    {
+      "id": "cpu6",
+      "brand": "AMD",
+      "part_name": "Ryzen 5 7600X",
+      "price": 299.99,
+      "description": "Great value CPU with 6 cores and 12 threads, ideal for gaming and general use."
+    },
+    {
+      "id": "cpu7",
+      "brand": "Intel",
+      "part_name": "Core i3-13100",
+      "price": 179.99,
+      "description": "Entry-level CPU with 4 cores and 8 threads, suitable for basic tasks and light gaming."
+    },
+    {
+      "id": "cpu8",
+      "brand": "AMD",
+      "part_name": "Ryzen 3 7300X",
+      "price": 149.99,
+      "description": "Affordable processor with 4 cores and 8 threads, good for basic computing needs."
+    },
+    {
+      "id": "cpu9",
+      "brand": "Intel",
+      "part_name": "Core i9-12900K",
+      "price": 589.99,
+      "description": "High-performance CPU with 16 cores and 24 threads, suitable for demanding applications and gaming."
+    },
+    {
+      "id": "cpu10",
+      "brand": "AMD",
+      "part_name": "Ryzen 7 7700X",
+      "price": 419.99,
+      "description": "High-end CPU with 8 cores and 16 threads, perfect for gaming and content creation."
+    },
+    {
+      "id": "cpu11",
+      "brand": "Intel",
+      "part_name": "Core i5-13400F",
+      "price": 269.99,
+      "description": "Budget-friendly CPU with 10 cores and 16 threads, suitable for mainstream gaming and productivity."
+    },
+    {
+      "id": "cpu12",
+      "brand": "AMD",
+      "part_name": "Ryzen 5 7600",
+      "price": 239.99,
+      "description": "Balanced CPU with 6 cores and 12 threads, great for gaming and everyday computing."
+    },
+    {
+      "id": "cpu13",
+      "brand": "Intel",
+      "part_name": "Core i7-12700K",
+      "price": 409.99,
+      "description": "High-performance processor with 12 cores and 20 threads, excellent for gaming and multitasking."
+    },
+    {
+      "id": "cpu14",
+      "brand": "AMD",
+      "part_name": "Ryzen 9 7950X3D",
+      "price": 749.99,
+      "description": "Advanced CPU with 16 cores and 32 threads, featuring 3D V-Cache for enhanced gaming performance."
+    },
+    {
+      "id": "cpu15",
+      "brand": "Intel",
+      "part_name": "Core i3-12100F",
+      "price": 129.99,
+      "description": "Affordable entry-level CPU with 4 cores and 8 threads, ideal for budget builds."
+    },
+    {
+      "id": "cpu16",
+      "brand": "AMD",
+      "part_name": "Ryzen 5 5600G",
+      "price": 229.99,
+      "description": "APU with 6 cores and 12 threads, featuring integrated graphics for basic gaming and computing."
+    },
+    {
+      "id": "cpu17",
+      "brand": "Intel",
+      "part_name": "Core i9-11900K",
+      "price": 499.99,
+      "description": "Powerful 8-core processor, suitable for high-end gaming and professional tasks."
+    },
+    {
+      "id": "cpu18",
+      "brand": "AMD",
+      "part_name": "Ryzen 3 4100",
+      "price": 129.99,
+      "description": "Budget processor with 4 cores and 8 threads, ideal for entry-level gaming and general use."
+    },
+    {
+      "id": "cpu19",
+      "brand": "Intel",
+      "part_name": "Core i5-11400",
+      "price": 199.99,
+      "description": "Mid-range processor with 6 cores and 12 threads, great for gaming and everyday tasks."
+    },
+    {
+      "id": "cpu20",
+      "brand": "AMD",
+      "part_name": "Ryzen 9 5900X",
+      "price": 449.99,
+      "description": "High-end CPU with 12 cores and 24 threads, perfect for demanding applications and multitasking."
+    }
+  ],
+  "cpucoolers": [
+    {
+      "id": "cosoler1",
+      "brand": "Noctua",
+      "part_name": "NH-D15",
+      "price": 89.99,
+      "description": "High-performance dual-tower air cooler with excellent cooling efficiency and low noise."
+    },
+    {
+      "id": "cooler2",
+      "brand": "Corsair",
+      "part_name": "H150i Elite Capellix",
+      "price": 169.99,
+      "description": "360mm AIO liquid cooler with customizable RGB lighting and high-performance cooling."
+    },
+    {
+      "id": "cooler3",
+      "brand": "Cooler Master",
+      "part_name": "Hyper 212 RGB",
+      "price": 49.99,
+      "description": "Popular air cooler with RGB lighting, providing reliable cooling at an affordable price."
+    },
+    {
+      "id": "cooler4",
+      "brand": "NZXT",
+      "part_name": "Kraken Z73",
+      "price": 249.99,
+      "description": "High-end 360mm AIO cooler with customizable LCD display, offering exceptional cooling performance."
+    },
+    {
+      "id": "cooler5",
+      "brand": "Arctic",
+      "part_name": "Liquid Freezer II 280",
+      "price": 119.99,
+      "description": "Efficient 280mm AIO cooler with excellent cooling performance and quiet operation."
+    },
+    {
+      "id": "cooler6",
+      "brand": "be quiet!",
+      "part_name": "Dark Rock Pro 4",
+      "price": 89.99,
+      "description": "High-performance air cooler with dual tower design and exceptional quiet operation."
+    },
+    {
+      "id": "cooler7",
+      "brand": "Thermaltake",
+      "part_name": "Floe Riing 360",
+      "price": 139.99,
+      "description": "360mm AIO cooler with RGB lighting and powerful cooling performance."
+    },
+    {
+      "id": "cooler8",
+      "brand": "Scythe",
+      "part_name": "Mugen 5 Rev.B",
+      "price": 59.99,
+      "description": "Air cooler with a large heatsink and efficient cooling performance for high-end CPUs."
+    },
+    {
+      "id": "cooler9",
+      "brand": "Cooler Master",
+      "part_name": "MasterLiquid ML360R",
+      "price": 129.99,
+      "description": "360mm AIO cooler with addressable RGB lighting and high-efficiency cooling."
+    },
+    {
+      "id": "cooler10",
+      "brand": "Corsair",
+      "part_name": "iCUE H115i Elite Capellix",
+      "price": 149.99,
+      "description": "240mm AIO cooler with RGB lighting and advanced cooling features."
+    },
+    {
+      "id": "cooler11",
+      "brand": "Deepcool",
+      "part_name": "Castle 360EX",
+      "price": 139.99,
+      "description": "360mm AIO cooler with high performance and a unique design for efficient cooling."
+    },
+    {
+      "id": "cooler12",
+      "brand": "Noctua",
+      "part_name": "NH-U12S",
+      "price": 69.99,
+      "description": "Compact air cooler with excellent performance and low noise operation."
+    },
+    {
+      "id": "cooler13",
+      "brand": "Thermaltake",
+      "part_name": "Tower 500",
+      "price": 59.99,
+      "description": "Dual-tower air cooler with a large heatsink and high cooling efficiency."
+    },
+    {
+      "id": "cooler14",
+      "brand": "ARCTIC",
+      "part_name": "Freezer 34 eSports DUO",
+      "price": 49.99,
+      "description": "Effective dual-fan air cooler with a high cooling capacity and quiet operation."
+    },
+    {
+      "id": "cooler15",
+      "brand": "Corsair",
+      "part_name": "H100i RGB PRO XT",
+      "price": 119.99,
+      "description": "240mm AIO cooler with RGB lighting and strong cooling performance."
+    },
+    {
+      "id": "cooler16",
+      "brand": "Noctua",
+      "part_name": "NH-U14S",
+      "price": 79.99,
+      "description": "Large air cooler with excellent cooling performance and quiet operation."
+    },
+    {
+      "id": "cooler17",
+      "brand": "Cooler Master",
+      "part_name": "MasterAir MA620M",
+      "price": 99.99,
+      "description": "Dual-tower air cooler with a sleek design and strong cooling capability."
+    },
+    {
+      "id": "cooler18",
+      "brand": "Scythe",
+      "part_name": "Fuma 2",
+      "price": 69.99,
+      "description": "Air cooler with dual heatsinks and high-performance fans for effective cooling."
+    },
+    {
+      "id": "cooler19",
+      "brand": "be quiet!",
+      "part_name": "Pure Rock 2",
+      "price": 39.99,
+      "description": "Affordable air cooler with good performance and quiet operation."
+    },
+    {
+      "id": "cooler20",
+      "brand": "NZXT",
+      "part_name": "Kraken X53",
+      "price": 109.99,
+      "description": "240mm AIO cooler with customizable RGB lighting and reliable cooling."
+    }
+  ],
+  "memory": [
+    {
+      "id": "mem1",
+      "brand": "Corsair",
+      "part_name": "Vengeance LPX 16GB DDR4-3200",
+      "price": 79.99,
+      "description": "High-performance 16GB DDR4 RAM, ideal for gaming and multitasking."
+    },
+    {
+      "id": "mem2",
+      "brand": "G.SKILL",
+      "part_name": "Trident Z RGB 32GB DDR4-3600",
+      "price": 149.99,
+      "description": "32GB DDR4 RAM with RGB lighting, providing high speed and capacity for demanding applications."
+    },
+    {
+      "id": "mem3",
+      "brand": "Kingston",
+      "part_name": "Fury Beast 16GB DDR4-3200",
+      "price": 69.99,
+      "description": "Reliable 16GB DDR4 RAM, offering a good balance between performance and cost."
+    },
+    {
+      "id": "mem4",
+      "brand": "Crucial",
+      "part_name": "Ballistix 32GB DDR4-3200",
+      "price": 119.99,
+      "description": "High-capacity 32GB DDR4 RAM, designed for gamers and professionals."
+    },
+    {
+      "id": "mem5",
+      "brand": "Corsair",
+      "part_name": "Dominator Platinum RGB 32GB DDR4-3200",
+      "price": 189.99,
+      "description": "32GB DDR4 RAM with customizable RGB lighting and high performance."
+    },
+    {
+      "id": "mem6",
+      "brand": "G.SKILL",
+      "part_name": "Ripjaws V 16GB DDR4-3600",
+      "price": 89.99,
+      "description": "16GB DDR4 RAM with high speed, suitable for gaming and heavy workloads."
+    },
+    {
+      "id": "mem7",
+      "brand": "Kingston",
+      "part_name": "HyperX Fury 16GB DDR4-2666",
+      "price": 59.99,
+      "description": "Budget-friendly 16GB DDR4 RAM, ideal for general computing and light gaming."
+    },
+    {
+      "id": "mem8",
+      "brand": "Crucial",
+      "part_name": "P5 1TB NVMe SSD",
+      "price": 99.99,
+      "description": "1TB NVMe SSD with high read/write speeds, providing fast storage for applications and games."
+    },
+    {
+      "id": "mem9",
+      "brand": "Corsair",
+      "part_name": "Vengeance LPX 8GB DDR4-2400",
+      "price": 39.99,
+      "description": "Affordable 8GB DDR4 RAM, suitable for budget builds and everyday tasks."
+    },
+    {
+      "id": "mem10",
+      "brand": "G.SKILL",
+      "part_name": "Trident Z Neo 16GB DDR4-3600",
+      "price": 99.99,
+      "description": "High-performance 16GB DDR4 RAM with optimized speed for AMD systems."
+    },
+    {
+      "id": "mem11",
+      "brand": "Kingston",
+      "part_name": "Fury Impact 16GB DDR4-3200",
+      "price": 89.99,
+      "description": "Compact 16GB DDR4 RAM designed for laptops and small form factor PCs."
+    },
+    {
+      "id": "mem12",
+      "brand": "Crucial",
+      "part_name": "Ballistix Max 32GB DDR4-4000",
+      "price": 189.99,
+      "description": "High-speed 32GB DDR4 RAM, perfect for overclocking and high-performance computing."
+    },
+    {
+      "id": "mem13",
+      "brand": "Corsair",
+      "part_name": "Vengeance LPX 8GB DDR4-3000",
+      "price": 49.99,
+      "description": "8GB DDR4 RAM with a balance of speed and affordability, ideal for general use."
+    },
+    {
+      "id": "mem14",
+      "brand": "G.SKILL",
+      "part_name": "Ripjaws DDR4-3200 32GB",
+      "price": 129.99,
+      "description": "32GB DDR4 RAM offering good performance and value for gaming and multitasking."
+    },
+    {
+      "id": "mem15",
+      "brand": "Kingston",
+      "part_name": "HyperX Predator 16GB DDR4-2666",
+      "price": 79.99,
+      "description": "16GB DDR4 RAM with high speed and low latency, designed for performance computing."
+    },
+    {
+      "id": "mem16",
+      "brand": "Crucial",
+      "part_name": "Ballistix Elite 16GB DDR4-3600",
+      "price": 99.99,
+      "description": "16GB DDR4 RAM with premium performance and high speed for demanding applications."
+    },
+    {
+      "id": "mem17",
+      "brand": "Corsair",
+      "part_name": "Vengeance LPX 32GB DDR4-2400",
+      "price": 109.99,
+      "description": "32GB DDR4 RAM with moderate speed, suitable for heavy multitasking and professional use."
+    },
+    {
+      "id": "mem18",
+      "brand": "G.SKILL",
+      "part_name": "Trident Z Royal 16GB DDR4-3600",
+      "price": 129.99,
+      "description": "High-performance 16GB DDR4 RAM with a distinctive design and high speed."
+    },
+    {
+      "id": "mem19",
+      "brand": "Kingston",
+      "part_name": "Fury Renegade 32GB DDR4-3600",
+      "price": 139.99,
+      "description": "32GB DDR4 RAM with high speed and performance, ideal for gamers and content creators."
+    },
+    {
+      "id": "mem20",
+      "brand": "Crucial",
+      "part_name": "Ballistix Sport 8GB DDR4-2666",
+      "price": 39.99,
+      "description": "8GB DDR4 RAM offering reliable performance for everyday computing and gaming."
+    }
+  ],
+  "motherboard": [
+    {
+      "id": "mb1",
+      "brand": "ASUS",
+      "part_name": "ROG Crosshair X670E Hero",
+      "price": 499.99,
+      "description": "High-end motherboard with advanced features for AMD Ryzen processors, including PCIe 5.0 and Wi-Fi 6E."
+    },
+    {
+      "id": "mb2",
+      "brand": "MSI",
+      "part_name": "MEG Z790 ACE",
+      "price": 389.99,
+      "description": "Premium motherboard with Intel Z790 chipset, supporting PCIe 5.0 and DDR5 memory."
+    },
+    {
+      "id": "mb3",
+      "brand": "Gigabyte",
+      "part_name": "AORUS X570 Master",
+      "price": 329.99,
+      "description": "Feature-rich motherboard with AMD X570 chipset, PCIe 4.0 support, and robust cooling solutions."
+    },
+    {
+      "id": "mb4",
+      "brand": "ASRock",
+      "part_name": "Z790 Taichi",
+      "price": 399.99,
+      "description": "High-performance motherboard with Intel Z790 chipset, supporting DDR5 memory and advanced connectivity."
+    },
+    {
+      "id": "mb5",
+      "brand": "ASUS",
+      "part_name": "ROG Strix B650-E Gaming",
+      "price": 299.99,
+      "description": "Mid-range motherboard for AMD Ryzen processors with PCIe 4.0 and Wi-Fi 6."
+    },
+    {
+      "id": "mb6",
+      "brand": "MSI",
+      "part_name": "MAG B550 Tomahawk",
+      "price": 179.99,
+      "description": "Affordable motherboard with AMD B550 chipset, supporting PCIe 4.0 and DDR4 memory."
+    },
+    {
+      "id": "mb7",
+      "brand": "Gigabyte",
+      "part_name": "Z790 AORUS Elite AX",
+      "price": 229.99,
+      "description": "Mid-range motherboard with Intel Z790 chipset, offering PCIe 4.0 and advanced connectivity features."
+    },
+    {
+      "id": "mb8",
+      "brand": "ASRock",
+      "part_name": "B550 Steel Legend",
+      "price": 159.99,
+      "description": "Durable motherboard with AMD B550 chipset, supporting PCIe 4.0 and DDR4 memory."
+    },
+    {
+      "id": "mb9",
+      "brand": "ASUS",
+      "part_name": "TUF Gaming Z690-Plus WiFi D4",
+      "price": 229.99,
+      "description": "Durable motherboard with Intel Z690 chipset, supporting DDR4 memory and Wi-Fi 6."
+    },
+    {
+      "id": "mb10",
+      "brand": "MSI",
+      "part_name": "MEG B550 Unify",
+      "price": 229.99,
+      "description": "High-performance motherboard with AMD B550 chipset and support for PCIe 4.0."
+    },
+    {
+      "id": "mb11",
+      "brand": "Gigabyte",
+      "part_name": "B660 AORUS Pro AX",
+      "price": 199.99,
+      "description": "Affordable motherboard with Intel B660 chipset, supporting DDR4 memory and PCIe 4.0."
+    },
+    {
+      "id": "mb12",
+      "brand": "ASRock",
+      "part_name": "Z690 Taichi",
+      "price": 369.99,
+      "description": "Feature-packed motherboard with Intel Z690 chipset, offering DDR5 memory support and advanced connectivity."
+    },
+    {
+      "id": "mb13",
+      "brand": "ASUS",
+      "part_name": "TUF Gaming X670E-PLUS",
+      "price": 359.99,
+      "description": "Durable motherboard for AMD Ryzen processors with PCIe 5.0 and advanced cooling solutions."
+    },
+    {
+      "id": "mb14",
+      "brand": "MSI",
+      "part_name": "MAG Z790 Tomahawk WiFi",
+      "price": 319.99,
+      "description": "Feature-rich motherboard with Intel Z790 chipset, supporting PCIe 5.0 and Wi-Fi 6E."
+    },
+    {
+      "id": "mb15",
+      "brand": "Gigabyte",
+      "part_name": "X670 AORUS Elite",
+      "price": 319.99,
+      "description": "Mid-range motherboard with AMD X670 chipset, supporting PCIe 5.0 and DDR5 memory."
+    },
+    {
+      "id": "mb16",
+      "brand": "ASRock",
+      "part_name": "B550M Pro4",
+      "price": 139.99,
+      "description": "Compact motherboard with AMD B550 chipset, offering PCIe 4.0 support and essential features."
+    },
+    {
+      "id": "mb17",
+      "brand": "ASUS",
+      "part_name": "ROG Strix Z690-E Gaming WiFi",
+      "price": 359.99,
+      "description": "Premium motherboard with Intel Z690 chipset, offering DDR5 memory support and advanced features."
+    },
+    {
+      "id": "mb18",
+      "brand": "MSI",
+      "part_name": "MAG B660M Mortar WiFi",
+      "price": 179.99,
+      "description": "Compact motherboard with Intel B660 chipset, offering DDR4 memory support and Wi-Fi 6."
+    },
+    {
+      "id": "mb19",
+      "brand": "Gigabyte",
+      "part_name": "B550 AORUS Elite",
+      "price": 159.99,
+      "description": "Affordable motherboard with AMD B550 chipset, supporting PCIe 4.0 and DDR4 memory."
+    },
+    {
+      "id": "mb20",
+      "brand": "ASRock",
+      "part_name": "Z790 Steel Legend",
+      "price": 299.99,
+      "description": "Feature-rich motherboard with Intel Z790 chipset, offering PCIe 5.0 and DDR5 memory support."
+    }
+  ],
+  "storage": [
+    {
+      "id": "st1",
+      "brand": "Samsung",
+      "part_name": "970 EVO Plus 1TB NVMe SSD",
+      "price": 149.99,
+      "description": "High-speed 1TB NVMe SSD with excellent read/write performance for gaming and professional use."
+    },
+    {
+      "id": "st2",
+      "brand": "Western Digital",
+      "part_name": "WD Black SN850 1TB NVMe SSD",
+      "price": 169.99,
+      "description": "1TB NVMe SSD offering top-tier performance with PCIe 4.0 support for high-speed data transfer."
+    },
+    {
+      "id": "st3",
+      "brand": "Crucial",
+      "part_name": "P5 Plus 1TB NVMe SSD",
+      "price": 129.99,
+      "description": "1TB NVMe SSD with fast read/write speeds and good performance for gaming and content creation."
+    },
+    {
+      "id": "st4",
+      "brand": "SanDisk",
+      "part_name": "Extreme Pro 1TB NVMe SSD",
+      "price": 139.99,
+      "description": "1TB NVMe SSD providing high speed and reliability for demanding applications."
+    },
+    {
+      "id": "st5",
+      "brand": "Seagate",
+      "part_name": "FireCuda 530 1TB NVMe SSD",
+      "price": 159.99,
+      "description": "1TB NVMe SSD with high read/write speeds and durability, designed for gamers and professionals."
+    },
+    {
+      "id": "st6",
+      "brand": "Intel",
+      "part_name": "660p 1TB NVMe SSD",
+      "price": 119.99,
+      "description": "Affordable 1TB NVMe SSD with decent performance for everyday computing and light gaming."
+    },
+    {
+      "id": "st7",
+      "brand": "Kingston",
+      "part_name": "A2000 1TB NVMe SSD",
+      "price": 109.99,
+      "description": "1TB NVMe SSD offering good performance and value, suitable for gaming and general use."
+    },
+    {
+      "id": "st8",
+      "brand": "Western Digital",
+      "part_name": "Blue SN570 1TB NVMe SSD",
+      "price": 99.99,
+      "description": "1TB NVMe SSD providing reliable performance and speed for various applications."
+    },
+    {
+      "id": "st9",
+      "brand": "Samsung",
+      "part_name": "870 QVO 2TB SATA SSD",
+      "price": 189.99,
+      "description": "2TB SATA SSD with high storage capacity and good performance for large files and applications."
+    },
+    {
+      "id": "st10",
+      "brand": "Crucial",
+      "part_name": "MX500 1TB SATA SSD",
+      "price": 114.99,
+      "description": "1TB SATA SSD offering reliable performance and good value for everyday computing tasks."
+    },
+    {
+      "id": "st11",
+      "brand": "SanDisk",
+      "part_name": "Ultra 3D 1TB SATA SSD",
+      "price": 109.99,
+      "description": "1TB SATA SSD providing improved performance and durability for general computing."
+    },
+    {
+      "id": "st12",
+      "brand": "Seagate",
+      "part_name": "Barracuda 2TB HDD",
+      "price": 69.99,
+      "description": "2TB HDD offering ample storage capacity for large files and media."
+    },
+    {
+      "id": "st13",
+      "brand": "Western Digital",
+      "part_name": "Blue 4TB HDD",
+      "price": 109.99,
+      "description": "4TB HDD providing high storage capacity for extensive data and media collections."
+    },
+    {
+      "id": "st14",
+      "brand": "Toshiba",
+      "part_name": "X300 4TB HDD",
+      "price": 129.99,
+      "description": "4TB HDD offering high performance and capacity for storage-intensive applications."
+    },
+    {
+      "id": "st15",
+      "brand": "Seagate",
+      "part_name": "IronWolf 8TB HDD",
+      "price": 179.99,
+      "description": "8TB HDD designed for NAS systems and high-capacity storage needs."
+    },
+    {
+      "id": "st16",
+      "brand": "Western Digital",
+      "part_name": "Red Plus 6TB HDD",
+      "price": 139.99,
+      "description": "6TB HDD optimized for NAS environments with high reliability and performance."
+    },
+    {
+      "id": "st17",
+      "brand": "Samsung",
+      "part_name": "980 Pro 500GB NVMe SSD",
+      "price": 99.99,
+      "description": "500GB NVMe SSD offering high speed and performance for demanding applications."
+    },
+    {
+      "id": "st18",
+      "brand": "Crucial",
+      "part_name": "P5 500GB NVMe SSD",
+      "price": 89.99,
+      "description": "500GB NVMe SSD with good performance and value for general computing and gaming."
+    },
+    {
+      "id": "st19",
+      "brand": "Kingston",
+      "part_name": "KC2500 1TB NVMe SSD",
+      "price": 139.99,
+      "description": "1TB NVMe SSD offering high speed and reliability for high-performance computing tasks."
+    },
+    {
+      "id": "st20",
+      "brand": "Intel",
+      "part_name": "760p 512GB NVMe SSD",
+      "price": 74.99,
+      "description": "512GB NVMe SSD with decent performance and affordability for everyday use."
+    }
+  ],
+  "powersupply": [
+    {
+      "id": "psu1",
+      "brand": "Corsair",
+      "part_name": "RM850x 850W 80+ Gold",
+      "price": 139.99,
+      "description": "850W 80+ Gold certified PSU with fully modular cables for efficient and reliable power."
+    },
+    {
+      "id": "psu2",
+      "brand": "EVGA",
+      "part_name": "SuperNOVA 750 G5 750W 80+ Gold",
+      "price": 129.99,
+      "description": "750W 80+ Gold PSU offering high efficiency and a fully modular design for clean cable management."
+    },
+    {
+      "id": "psu3",
+      "brand": "Seasonic",
+      "part_name": "Focus GX-650 650W 80+ Gold",
+      "price": 109.99,
+      "description": "650W 80+ Gold certified PSU with a compact design and fully modular cables."
+    },
+    {
+      "id": "psu4",
+      "brand": "ASUS",
+      "part_name": "ROG Strix 850G 850W 80+ Gold",
+      "price": 149.99,
+      "description": "850W 80+ Gold PSU designed for high-performance systems with RGB lighting and modular cables."
+    },
+    {
+      "id": "psu5",
+      "brand": "Thermaltake",
+      "part_name": "Toughpower GF1 750W 80+ Gold",
+      "price": 119.99,
+      "description": "750W 80+ Gold PSU with a reliable design and fully modular cables for clean and efficient power."
+    },
+    {
+      "id": "psu6",
+      "brand": "Cooler Master",
+      "part_name": "V750 Gold 750W 80+ Gold",
+      "price": 109.99,
+      "description": "750W 80+ Gold PSU offering high efficiency and a fully modular design for versatile builds."
+    },
+    {
+      "id": "psu7",
+      "brand": "Be Quiet!",
+      "part_name": "Dark Power Pro 12 1200W 80+ Titanium",
+      "price": 249.99,
+      "description": "1200W 80+ Titanium PSU providing ultra-high efficiency and near-silent operation with fully modular cables."
+    },
+    {
+      "id": "psu8",
+      "brand": "Gigabyte",
+      "part_name": "P850GM 850W 80+ Gold",
+      "price": 129.99,
+      "description": "850W 80+ Gold PSU with a compact design and modular cables for effective power delivery."
+    },
+    {
+      "id": "psu9",
+      "brand": "XFX",
+      "part_name": "Pro Series 750W 80+ Gold",
+      "price": 119.99,
+      "description": "750W 80+ Gold PSU with a reliable design and fully modular cables for a clean build."
+    },
+    {
+      "id": "psu10",
+      "brand": "SilverStone",
+      "part_name": "Strider Platinum 600W 80+ Platinum",
+      "price": 139.99,
+      "description": "600W 80+ Platinum PSU with high efficiency and a fully modular design for versatile use."
+    },
+    {
+      "id": "psu11",
+      "brand": "Corsair",
+      "part_name": "HX1200 1200W 80+ Platinum",
+      "price": 229.99,
+      "description": "1200W 80+ Platinum PSU offering excellent efficiency and a fully modular design for high-end systems."
+    },
+    {
+      "id": "psu12",
+      "brand": "EVGA",
+      "part_name": "BR Series 600W 80+ Bronze",
+      "price": 69.99,
+      "description": "600W 80+ Bronze PSU providing reliable power at an affordable price with non-modular cables."
+    },
+    {
+      "id": "psu13",
+      "brand": "Seasonic",
+      "part_name": "Prime TX-850 850W 80+ Titanium",
+      "price": 189.99,
+      "description": "850W 80+ Titanium PSU with high efficiency and excellent build quality for demanding systems."
+    },
+    {
+      "id": "psu14",
+      "brand": "ASUS",
+      "part_name": "TUF Gaming 750W 80+ Gold",
+      "price": 119.99,
+      "description": "750W 80+ Gold PSU with a durable design and fully modular cables for clean power delivery."
+    },
+    {
+      "id": "psu15",
+      "brand": "Thermaltake",
+      "part_name": "Smart BX1 650W 80+ Bronze",
+      "price": 79.99,
+      "description": "650W 80+ Bronze PSU with reliable performance and a non-modular design for budget builds."
+    },
+    {
+      "id": "psu16",
+      "brand": "Cooler Master",
+      "part_name": "MWE Gold 650W 80+ Gold",
+      "price": 89.99,
+      "description": "650W 80+ Gold PSU offering efficient power and a fully modular design for clean cable management."
+    },
+    {
+      "id": "psu17",
+      "brand": "Be Quiet!",
+      "part_name": "Straight Power 11 850W 80+ Platinum",
+      "price": 159.99,
+      "description": "850W 80+ Platinum PSU providing high efficiency and quiet operation with a modular cable design."
+    },
+    {
+      "id": "psu18",
+      "brand": "Gigabyte",
+      "part_name": "AORUS P1200W 80+ Platinum",
+      "price": 209.99,
+      "description": "1200W 80+ Platinum PSU designed for high-performance builds with a fully modular design."
+    },
+    {
+      "id": "psu19",
+      "brand": "XFX",
+      "part_name": "TS Series 550W 80+ Bronze",
+      "price": 59.99,
+      "description": "550W 80+ Bronze PSU offering reliable power at an entry-level price with a non-modular design."
+    },
+    {
+      "id": "psu20",
+      "brand": "SilverStone",
+      "part_name": "SX600-G 600W 80+ Gold",
+      "price": 109.99,
+      "description": "600W 80+ Gold PSU with a compact size for small form factor builds and fully modular cables."
+    }
+  ],
+  "cases": [
+    {
+      "id": "case1",
+      "brand": "NZXT",
+      "part_name": "H510i",
+      "price": 89.99,
+      "description": "Mid-tower case with a sleek design, tempered glass side panel, and efficient airflow."
+    },
+    {
+      "id": "case2",
+      "brand": "Corsair",
+      "part_name": "iCUE 4000X RGB",
+      "price": 129.99,
+      "description": "Mid-tower case featuring three RGB fans, a spacious interior, and excellent cooling potential."
+    },
+    {
+      "id": "case3",
+      "brand": "Fractal Design",
+      "part_name": "Meshify C",
+      "price": 99.99,
+      "description": "Compact mid-tower case with a mesh front panel for optimal airflow and a clean design."
+    },
+    {
+      "id": "case4",
+      "brand": "Phanteks",
+      "part_name": "P400A Digital",
+      "price": 109.99,
+      "description": "Mid-tower case with digital RGB lighting, a mesh front panel, and ample cooling options."
+    },
+    {
+      "id": "case5",
+      "brand": "Cooler Master",
+      "part_name": "MasterBox Q300L",
+      "price": 69.99,
+      "description": "Compact and versatile case with a modular design and good airflow, ideal for budget builds."
+    },
+    {
+      "id": "case6",
+      "brand": "Lian Li",
+      "part_name": "PC-O11 Dynamic",
+      "price": 139.99,
+      "description": "High-quality mid-tower case with excellent cooling support, a tempered glass design, and ample space for components."
+    },
+    {
+      "id": "case7",
+      "brand": "be quiet!",
+      "part_name": "Dark Base 700",
+      "price": 159.99,
+      "description": "Premium mid-tower case with a modular design, excellent noise dampening, and advanced cooling options."
+    },
+    {
+      "id": "case8",
+      "brand": "Thermaltake",
+      "part_name": "Tower 500",
+      "price": 129.99,
+      "description": "Mid-tower case with a unique design, excellent airflow, and plenty of space for high-performance hardware."
+    },
+    {
+      "id": "case9",
+      "brand": "Gigabyte",
+      "part_name": "AORUS C300 GLASS",
+      "price": 119.99,
+      "description": "Mid-tower case with a tempered glass side panel and RGB lighting for a modern and stylish look."
+    },
+    {
+      "id": "case10",
+      "brand": "Antec",
+      "part_name": "DF600 FLUX",
+      "price": 99.99,
+      "description": "Mid-tower case with a focus on airflow, featuring a mesh front panel and three pre-installed fans."
+    },
+    {
+      "id": "case11",
+      "brand": "Corsair",
+      "part_name": "Carbide 275R",
+      "price": 89.99,
+      "description": "Minimalistic mid-tower case with a sleek design, good airflow, and space for high-performance components."
+    },
+    {
+      "id": "case12",
+      "brand": "NZXT",
+      "part_name": "H710",
+      "price": 169.99,
+      "description": "Full-tower case with a modern design, ample space for high-end hardware, and efficient cooling options."
+    },
+    {
+      "id": "case13",
+      "brand": "Phanteks",
+      "part_name": "Enthoo Evolv X",
+      "price": 179.99,
+      "description": "Premium full-tower case with excellent build quality, extensive cooling options, and a sleek design."
+    },
+    {
+      "id": "case14",
+      "brand": "Cooler Master",
+      "part_name": "H500",
+      "price": 149.99,
+      "description": "Mid-tower case with two 200mm fans, a mesh front panel, and a spacious interior for high-performance builds."
+    },
+    {
+      "id": "case15",
+      "brand": "Lian Li",
+      "part_name": "PC-011 Air Mini",
+      "price": 119.99,
+      "description": "Compact mid-tower case with excellent airflow, tempered glass panels, and a versatile design."
+    },
+    {
+      "id": "case16",
+      "brand": "be quiet!",
+      "part_name": "Pure Base 500DX",
+      "price": 109.99,
+      "description": "Mid-tower case with high airflow, a stylish design, and good cooling options for efficient performance."
+    },
+    {
+      "id": "case17",
+      "brand": "Thermaltake",
+      "part_name": "V200 Tempered Glass",
+      "price": 79.99,
+      "description": "Affordable mid-tower case with a tempered glass side panel and decent airflow for budget builds."
+    },
+    {
+      "id": "case18",
+      "brand": "Antec",
+      "part_name": "P120 Crystal",
+      "price": 89.99,
+      "description": "Mid-tower case with a tempered glass front and side panel, providing a stylish look and good cooling potential."
+    },
+    {
+      "id": "case19",
+      "brand": "Gigabyte",
+      "part_name": "C200 Glass",
+      "price": 99.99,
+      "description": "Mid-tower case with a sleek design, tempered glass panels, and efficient cooling options for gaming setups."
+    },
+    {
+      "id": "case20",
+      "brand": "Cooler Master",
+      "part_name": "NR200P",
+      "price": 129.99,
+      "description": "Compact case designed for small form factor builds, featuring a versatile design and good airflow."
+    }
+  ]
+}

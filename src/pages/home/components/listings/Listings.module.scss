@@ -1,0 +1,114 @@
+@import "../../../../sass/abstracts/mixins";
+
+.listings {
+  background: var(--neutral-color-1);
+
+  &Spinner {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+    & div:not(.listingsSpinnerDot) {
+      @include absolute-position(0, 0, 100%, 100%);
+
+      border: 8px solid transparent;
+      border-top-color: var(--neutral-color-2);
+      border-radius: 50%;
+
+      animation: 1.5s infinite ease rotate-spinner;
+    }
+
+    & div:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    & div:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    & div:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    &Dot {
+      background: var(--neutral-color-2);
+
+      @include absolute-position(50%, 50%, 1rem, 1rem);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+
+      animation: 0.75s infinite alternate ease-out blink-dot;
+    }
+  }
+
+  @keyframes rotate-spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes blink-dot {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  & > div:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  & ul {
+    @include flex-box(stretch, null, 2rem);
+    overflow: scroll hidden;
+  }
+
+  & li {
+    display: flex;
+    max-height: 500px;
+  }
+
+  &Card {
+    color: var(--neutral-color-1);
+    background: var(--neutral-color-2);
+
+    @include flex-box(null, space-between, null);
+    flex-direction: column;
+    min-width: 15rem;
+
+    height: 100%;
+    padding: 2rem;
+
+    &Brand {
+      font: var(--light-weight) var(--p-size) / var(--default-height)
+        var(--font-family);
+      color: var(--focus-color);
+      display: block;
+    }
+  }
+
+  &Hidden {
+    color: var(--neutral-color-1);
+    background: var(--neutral-color-2);
+
+    @include flex-box(start, space-between, null);
+    flex-direction: column;
+    min-width: 15rem;
+
+    padding: 2rem;
+    overflow-y: scroll;
+  }
+
+  &Price {
+    font: var(--medium-weight) var(--p-size) / var(--default-height)
+      var(--font-family);
+
+    background: var(--primary-gradient) no-repeat left bottom / 100% 5px;
+
+    display: inline-block;
+  }
+}

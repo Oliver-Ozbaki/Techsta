@@ -10,7 +10,7 @@
   --p-size: 1.563rem;
   --h3-size: 2.441rem;
   --h2-size: 3.052rem;
-  --h1-size: 4.768rem;
+  --h1-size: 3.815rem;
 
   --default-height: 1;
   --heading-height: 1.2;
@@ -26,14 +26,27 @@
 
   --primary-gradient: linear-gradient(to bottom right, #ff4b1f, #1fddff);
 
+  --padding-value: 8%;
+
+  @include respond-to("700px") {
+    --padding-value: 6%;
+  }
+
+  @include respond-to("1300px") {
+    --padding-value: 4%;
+  }
+
+  @include respond-to("1900px") {
+    --padding-value: 3%;
+  }
+
   --horizontal-space: 3rem;
 
+  --vertical-space-xs: 1rem;
   --vertical-space-s: 2rem;
   --vertical-space-m: 3rem;
-  --vertical-space-l: 4rem;
-  --vertical-space-xl: 6rem;
 
-  --transition-values: all 0.25s ease-out;
+  --transition-values: 0.25s ease-out;
 }
 
 // RESET RULESETS.
@@ -61,23 +74,23 @@
 html {
   font-size: 62.5%;
 
-  @include respond-to("700px") {
+  @include respond-to("500px") {
     font-size: 75%;
   }
 
-  @include respond-to("1600px") {
+  @include respond-to("700px") {
     font-size: 87.5%;
   }
 
-  @include respond-to("1900px") {
+  @include respond-to("1000px") {
     font-size: 100%;
   }
 
-  @include respond-to("2200px") {
+  @include respond-to("1600px") {
     font-size: 112.5%;
   }
 
-  @include respond-to("2500px") {
+  @include respond-to("2200px") {
     font-size: 125%;
   }
 
@@ -86,6 +99,7 @@ html {
 
 body {
   color: var(--neutral-color-2);
+
   // FIXME | TESTING PURPOUSES.
   line-height: 1;
 

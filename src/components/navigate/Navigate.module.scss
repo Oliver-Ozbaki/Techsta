@@ -1,0 +1,45 @@
+@import "../../sass/abstracts/manager";
+@import "../../sass/abstracts/mixins";
+
+.link {
+  &:link,
+  &:visited {
+    text-decoration: none;
+
+    display: inline-block;
+  }
+
+  &--link {
+    &:link,
+    &:visited {
+      background: var(--primary-gradient) no-repeat left bottom / 100% 5px;
+    }
+
+    @include respond-to("hover") {
+      cursor: pointer;
+      transition: background-size var(--transition-values);
+
+      &:hover,
+      &:active {
+        background-position: right bottom;
+        background-size: 0% 5px;
+      }
+    }
+  }
+
+  &--button {
+    &:link,
+    &:visited {
+      @include button-template;
+    }
+
+    @include respond-to("hover") {
+      &:hover,
+      &:active {
+        box-shadow: -3px -3px 0 var(--neutral-color-2);
+
+        transform: translate(3px, 3px);
+      }
+    }
+  }
+}

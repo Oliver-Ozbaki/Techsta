@@ -1,0 +1,10 @@
+@import "../../sass/base/keyframes";
+
+.frame {
+  background: var(--primary-gradient) no-repeat;
+  background-size: 150% 150%;
+
+  padding: var(--padding-value);
+
+  animation: 25s ease-in-out infinite verping-background;
+}

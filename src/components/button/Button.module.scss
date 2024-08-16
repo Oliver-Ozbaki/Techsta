@@ -1,0 +1,12 @@
+@import "../../sass/abstracts/mixins";
+
+.button {
+  @include button-template;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: -3px -3px 0 var(--neutral-color-1);
+
+    transform: translate(3px, 3px);
+  }
+}
