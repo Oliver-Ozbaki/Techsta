@@ -58,6 +58,10 @@
     }
   }
 
+  & > div:last-child {
+    margin-bottom: 0 !important;
+  }
+
   & ul {
     @include flex-box(stretch, null, 2rem);
     overflow: scroll hidden;

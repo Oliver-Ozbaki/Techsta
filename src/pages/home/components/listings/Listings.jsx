@@ -15,7 +15,7 @@ const partTypes = [
 
 function Listings() {
   return (
-    <section className={`${styles.listings} u-section-padding`}>
+    <section className={`${styles.listings} u-section-padding`} id="listings">
       {partTypes.map((type, index) => (
         <Row key={index} part={type} />
       ))}

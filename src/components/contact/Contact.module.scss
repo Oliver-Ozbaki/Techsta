@@ -1,0 +1,21 @@
+@import "../../sass/abstracts/mixins";
+
+.footer {
+  background: var(--neutral-color-1);
+
+  &Sentence {
+    font: var(--heavy-weight) var(--h1-size) / var(--heading-height)
+      var(--font-family);
+    text-align: center;
+
+    background: var(--primary-gradient);
+  }
+
+  &Details {
+    font: var(--medium-weight) var(--p-size) / var(--default-height)
+      var(--font-family);
+
+    @include flex-box(center, null, 1rem);
+    flex-direction: column;
+  }
+}

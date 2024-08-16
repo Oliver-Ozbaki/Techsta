@@ -22,7 +22,7 @@ function Hero() {
         </Paragraph>
 
         <div className={styles.heroButtonWrapper}>
-          <Navigate type="a" style="button" url="#products">
+          <Navigate type="a" style="button" url="#listings">
             Listings
           </Navigate>
         </div>

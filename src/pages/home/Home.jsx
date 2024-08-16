@@ -7,11 +7,12 @@ import Navigate from "../../components/navigate/Navigate";
 import Main from "../../components/main/Main";
 import Hero from "./components/hero/Hero";
 import Listings from "./components/listings/Listings";
+import Contact from "../../components/contact/Contact";
 
 import stylesHeader from "../../components/header/Header.module.scss";
 
 const navLinks = [
-  { type: `a`, style: `link`, url: `#products`, title: `Products` },
+  { type: `a`, style: `link`, url: `#listings`, title: `Listings` },
   { type: `a`, style: `link`, url: `#contact`, title: `Contact` },
   { type: Link, style: `link`, url: `/blog`, title: `Blog` },
 ];
@@ -36,6 +37,8 @@ function Home() {
         <Hero />
         <Listings />
       </Main>
+
+      <Contact />
     </Frame>
   );
 }
