@@ -7,7 +7,11 @@ Paragraph.propTypes = {
 };
 
 function Paragraph({ utilities, children }) {
-  return <p className={`${styles.paragraph} ${utilities}`}>{children}</p>;
+  return (
+    <p className={`${styles.paragraph} ${utilities ? utilities : ``}`}>
+      {children}
+    </p>
+  );
 }
 
 export default Paragraph;

@@ -30,7 +30,7 @@ function Contact() {
 
       <address className={`${styles.footerDetails} u-section-padding`}>
         {footerLinks.map(({ type, style, url, title }, index) => (
-          <Navigate type={type} style={style} url={url}>
+          <Navigate key={index} type={type} style={style} url={url}>
             {title}
           </Navigate>
         ))}

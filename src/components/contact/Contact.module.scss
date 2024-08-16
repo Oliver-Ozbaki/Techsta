@@ -15,6 +15,8 @@
     font: var(--medium-weight) var(--p-size) / var(--default-height)
       var(--font-family);
 
+    padding-bottom: 0 !important;
+
     @include flex-box(center, null, 1rem);
     flex-direction: column;
   }

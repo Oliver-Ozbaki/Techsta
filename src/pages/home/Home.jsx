@@ -24,8 +24,15 @@ function Home() {
         <nav className={stylesHeader.headerNav}>
           <Items
             organized={false}
-            elements={navLinks.map(({ type, style, url, title }) => (
-              <Navigate type={type} style={style} url={url}>
+            elements={navLinks.map(({ type, style, url, title }, index) => (
+              <Navigate
+                type={type}
+                style={style}
+                url={url}
+                {...(navLinks.length !== index + 1
+                  ? { inline: { display: `none` } }
+                  : null)}
+              >
                 {title}
               </Navigate>
             ))}
@@ -34,7 +41,16 @@ function Home() {
       </Header>
 
       <Main>
-        <Hero />
+        <Hero
+          button={
+            <Navigate type="a" style="button" url="#listings">
+              Listings
+            </Navigate>
+          }
+          modifier="--home"
+        >
+          <span>Powerful computing</span> for the most demanding.
+        </Hero>
         <Listings />
       </Main>
 

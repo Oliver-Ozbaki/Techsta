@@ -29,11 +29,41 @@
       flex-basis: 50%;
       overflow: hidden;
 
+      &--home::after {
+        background-image: url("../../../../assets/images/hero/hero_1200.webp"),
+          var(--primary-gradient);
+
+        @include respond-to("x1.5") {
+          background-image: url("../../../../assets/images/hero/hero_1800.webp"),
+            var(--primary-gradient);
+        }
+
+        @include respond-to("x2") {
+          background-image: url("../../../../assets/images/hero/hero_2400.webp"),
+            var(--primary-gradient);
+        }
+      }
+
+      &--blog::after {
+        background-image: url("../../../../assets/images/hero/blog_1200.webp"),
+          var(--primary-gradient);
+
+        @include respond-to("x1.5") {
+          background-image: url("../../../../assets/images/hero/blog_1800.webp"),
+            var(--primary-gradient);
+        }
+
+        @include respond-to("x2") {
+          background-image: url("../../../../assets/images/hero/blog_2400.webp"),
+            var(--primary-gradient);
+        }
+      }
+
       &::after {
         content: "";
 
-        background-image: url("../../../../assets/images/hero/hero_1200.webp"),
-          var(--primary-gradient);
+        // background-image: url("../../../../assets/images/hero/hero_1200.webp"),
+        //   var(--primary-gradient);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -46,15 +76,15 @@
 
         transition: transform 1.5s ease;
 
-        @include respond-to("x1.5") {
-          background-image: url("../../../../assets/images/hero/hero_1800.webp"),
-            var(--primary-gradient);
-        }
+        // @include respond-to("x1.5") {
+        //   background-image: url("../../../../assets/images/hero/hero_1800.webp"),
+        //     var(--primary-gradient);
+        // }
 
-        @include respond-to("x2") {
-          background-image: url("../../../../assets/images/hero/hero_2400.webp"),
-            var(--primary-gradient);
-        }
+        // @include respond-to("x2") {
+        //   background-image: url("../../../../assets/images/hero/hero_2400.webp"),
+        //     var(--primary-gradient);
+        // }
       }
 
       @include respond-to("hover") {

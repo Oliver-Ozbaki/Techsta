@@ -6,9 +6,10 @@ Navigate.propTypes = {
   type: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   style: PropTypes.string,
   url: PropTypes.string,
+  inline: PropTypes.object,
 };
 
-function Navigate({ type, style, url, children }) {
+function Navigate({ type, style, url, inline, children }) {
   const Tag = type;
 
   const newProps = {
@@ -16,7 +17,11 @@ function Navigate({ type, style, url, children }) {
   };
 
   return (
-    <Tag className={`${styles.link} ${styles[`link--${style}`]}`} {...newProps}>
+    <Tag
+      className={`${styles.link} ${styles[`link--${style}`]}`}
+      {...newProps}
+      style={inline}
+    >
       {children}
     </Tag>
   );

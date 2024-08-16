@@ -6,11 +6,15 @@
   color: var(--neutral-color-2);
   background: var(--neutral-color-1);
 
-  @include respond-to("1000px") {
-    &--home {
-      @include flex-box(center, space-between, false);
-    }
+  &--home {
+    @include flex-box(center, space-between, false);
   }
+
+  // @include respond-to("1000px") {
+  //   &--home {
+  //     @include flex-box(center, space-between, false);
+  //   }
+  // }
 
   &Logo {
     font-weight: var(--heavy-weight);
@@ -34,12 +38,10 @@
   }
 
   &Nav {
-    display: none;
-
     @include respond-to("1000px") {
-      font-weight: var(--light-weight);
-
-      display: block;
+      & a {
+        display: block !important;
+      }
     }
 
     & ul {

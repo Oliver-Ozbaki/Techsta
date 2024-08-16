@@ -5,8 +5,6 @@ import Home from "../pages/home/Home";
 import Blog from "../pages/blog/Blog";
 
 function Router() {
-  const [productCard, setProductCard] = useState(null);
-
   return (
     <BrowserRouter>
       <Routes>
